@@ -1,0 +1,235 @@
+body {
+    background-image: url('images/BG.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navcolor a{
+    color: white !important;
+}
+.Div1 {
+    text-align: center;
+    height: fit-content;
+    margin-top: 60px;
+}
+
+.Div2 {
+    height: fit-content;
+}
+
+.Div3 {
+    text-align: center;
+    background-color: grey; opacity: 50%;
+    
+}
+
+.Div1 img {
+    width: 100%;
+}
+
+.intro {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    font-size: 36px !important;
+    color: white !important;
+    margin: 10% 0 10% 0 !important;
+}
+
+.active {
+    background-color: #316DC3!important;
+    color: black !important;
+    border-radius: 10px !important;
+}
+
+.onhover a:hover {
+    background-color: #316DC3;
+    color: black !important;
+    border-radius: 10px !important;
+}
+
+.fixedtop {
+    position: fixed !important;
+}
+
+.headericon img {
+    width: 30px;
+    margin: 0px 5px 0px 5px;
+}
+
+.headericon img:hover {
+    cursor: pointer;
+}
+
+.NavCenterAlign {
+    margin: 0 auto !important;
+}
+
+.fontchange h1 {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-size: 36px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+
+    color: white !important;
+}
+
+.fontchange h3 {
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+
+    font-size: 24px;
+    color: black;
+}
+
+.fontchange{
+    margin: 0 auto !important;
+}
+
+
+.fontchange td{
+    width: 400px;
+    height: 50px;
+}
+
+.tophead{
+    height: 100px;
+}
+
+.rightborder{
+    border-right: 2px solid black;
+}
+
+.CoreServices{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.CoreServices img{
+    box-shadow: 5px 2px 20px black;
+}
+
+.CSHead h1{
+    color: white;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 46px !important;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    
+}
+.CoreServices h2{
+    color: white;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    text-decoration: underline;
+    margin-top: 10px;
+    font-size: 24px;
+
+}
+
+.CS1{
+    flex: 1;
+}
+.CS2{
+    flex: 1;
+}
+
+.CS3{
+    flex: 1;
+}
+
+.CoreServices{
+    margin-bottom: 100px;
+}
+
+.footericon{
+    text-align: center;
+    flex: 3;
+}
+.footericon img {
+    width: 50px;
+    margin: 0 30px;
+    padding: 60px 0px;
+}
+
+.footericon img:hover {
+    cursor: pointer;
+}
+
+.footericon h2{
+    color: white !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.secondlastfooter{
+    display: flex;
+    background-color: #25272e;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+
+.secondlastfooter p{
+    color: white;
+}
+
+.secondlastfooter h3{
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+ }
+
+.contactinfo{
+    margin-left: 50px;
+    flex: 1;
+    padding-top: 50px;
+    min-width: 400px;
+}
+
+.footer{
+    background-color:#316DC3;
+    color: white;
+    padding: 20px 50px 5px 50px;
+}
+
+.footer p{
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 538px) {
+    .Div1 {
+        margin-top: 100px !important;
+    }
+    .intro p {
+        font-size: 24px !important;
+    }    
+    .fontchange h1 {
+        font-size: 24px !important;
+    }
+    .fontchange h3 {
+        font-size: 16px !important;
+    }
+}
