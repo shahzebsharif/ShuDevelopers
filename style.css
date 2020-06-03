@@ -1,6 +1,5 @@
 body {
-    /* background-image: url('images/bgimage.jpg'); */
-    background-image: linear-gradient(to right, grey, black);
+    background-image: url('Images/bgimage.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
