@@ -114,7 +114,8 @@ body {
 }
 
 .CoreServices img{
-    box-shadow: 5px 2px 20px black;
+    box-shadow: 5px 2px 10px white;
+    border-radius: 10px;
 }
 
 .CSHead h1{
@@ -136,7 +137,6 @@ body {
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
-    text-decoration: underline;
     margin-top: 10px;
     font-size: 24px;
 
@@ -214,12 +214,87 @@ body {
     text-align: center;
 }
 
+.Serv{
+    margin: 60px auto 0px auto;
+    text-align: center;
+}
+
+.Serv h1{
+    color: white;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 72px;
+}
+
+.Serv1{
+    margin: 20px auto 0px auto;
+    text-align: center;
 
 
+}
 
+.Serv1 img{
+    box-shadow: 5px 2px 20px #7b4a29;
+    border-radius: 10px;
+}
 
+.Serv2{
+    text-align: center;
+    margin: 20px auto 0px auto;
+ 
+}
 
+.Serv2 img{
+    box-shadow: 5px 2px 20px #3a4858;
+    border-radius: 10px;
+}
 
+.Serv3{
+    text-align: center;
+    margin: 20px auto 0px auto;
+
+}
+
+.Serv3 img{
+    box-shadow: 5px 2px 20px #e8e8e8;
+    border-radius: 10px;
+}
+
+.Serv4{
+    text-align: center;
+    margin: 20px auto 0px auto;
+ 
+}
+
+.Serv4 img{
+    box-shadow: 5px 2px 20px #284c54;
+    border-radius: 10px;
+}
+
+.Serv5{
+    text-align: center;
+    margin: 20px auto 0px auto;
+
+}
+
+.Serv5 img{
+    box-shadow: 5px 2px 20px #3646c1;
+    border-radius: 10px;
+}
+
+.Serv6{
+    text-align: center;
+    margin: 20px auto 0px auto;
+
+}
+
+.Serv6 img{
+    box-shadow: 5px 2px 20px #93583a;
+    border-radius: 10px;
+}
 @media only screen and (max-width: 538px) {
     .Div1 {
         margin-top: 100px !important;
@@ -232,5 +307,11 @@ body {
     }
     .fontchange h3 {
         font-size: 16px !important;
+    }
+    .Serv{
+        margin: 100px auto 0px auto !important; 
+    }
+    .Serv h1{
+        font-size: 36px !important;
     }
 }
