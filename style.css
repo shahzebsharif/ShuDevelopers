@@ -20,8 +20,10 @@ body {
 }
 
 .Div3 {
-    text-align: center;
-    background-color: grey; opacity: 50%;
+    text-align: center;  
+    background-image: url('Images/tbg.png'); 
+    background-repeat: no-repeat;
+    background-size: cover;
     
 }
 
@@ -76,7 +78,7 @@ body {
     font-variant: normal;
     font-weight: 700;
 
-    color: white !important;
+    color: black !important; opacity: 100%;
 }
 
 .fontchange h3 {
@@ -86,7 +88,7 @@ body {
     font-weight: 700;
 
     font-size: 24px;
-    color: black;
+    color: black !important; opacity: 100% !important;
 }
 
 .fontchange{
