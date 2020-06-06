@@ -97,6 +97,7 @@ body {
 .fontchange td{
     width: 400px;
     height: 50px;
+
 }
 
 .tophead{
@@ -113,7 +114,7 @@ body {
     flex-wrap: wrap;
 }
 
-.CoreServices img{
+.CoreServices img:hover{
     box-shadow: 5px 2px 10px white;
     border-radius: 10px;
 }
@@ -157,7 +158,7 @@ body {
     margin-bottom: 100px;
 }
 
-.footericon{
+/* .footericon{
     text-align: center;
     flex: 3;
 }
@@ -180,9 +181,9 @@ body {
     display: flex;
     background-color: #25272e;
     flex-wrap: wrap;
-    padding-top: 50px;
+    padding-top: 0px;
     margin-top: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 0px;
 }
 
 .secondlastfooter p{
@@ -201,7 +202,7 @@ body {
     flex: 1;
     padding-top: 50px;
     min-width: 400px;
-}
+} */
 
 .footer{
     background-color:#316DC3;
@@ -236,7 +237,7 @@ body {
 
 }
 
-.Serv1 img{
+.Serv1 img:hover{
     box-shadow: 5px 2px 20px #7b4a29;
     border-radius: 10px;
 }
@@ -247,7 +248,7 @@ body {
  
 }
 
-.Serv2 img{
+.Serv2 img:hover{
     box-shadow: 5px 2px 20px #3a4858;
     border-radius: 10px;
 }
@@ -258,7 +259,7 @@ body {
 
 }
 
-.Serv3 img{
+.Serv3 img:hover{
     box-shadow: 5px 2px 20px #e8e8e8;
     border-radius: 10px;
 }
@@ -269,7 +270,7 @@ body {
  
 }
 
-.Serv4 img{
+.Serv4 img:hover{
     box-shadow: 5px 2px 20px #284c54;
     border-radius: 10px;
 }
@@ -280,7 +281,7 @@ body {
 
 }
 
-.Serv5 img{
+.Serv5 img:hover{
     box-shadow: 5px 2px 20px #3646c1;
     border-radius: 10px;
 }
@@ -291,10 +292,121 @@ body {
 
 }
 
-.Serv6 img{
+.Serv6 img:hover{
     box-shadow: 5px 2px 20px #93583a;
     border-radius: 10px;
 }
+
+.ContactusForm{
+    margin: 60px auto 0px auto;
+
+}
+
+/* .centeredServ2 {
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+
+.centeredServ3 {
+    position: absolute;
+    top: 120%;
+    right: 70%;
+    transform: translate(50%, -45%);
+  } */
+
+/* .centered h1{
+    color: white;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.centered p{
+    color: white;
+    font-family:Garamond, Big Caslon, Times New Roman, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 24px;
+} */
+
+.AboutUsPage{
+    margin: 60px auto 0 auto;
+}
+
+.AboutUsPage h1{
+    color: white;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 72px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.AboutUsPage p{
+    color: white;
+    font-family:Garamond, Big Caslon, Times New Roman, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.endingquote{
+    text-align: right !important;
+}
+
+.Introfooter{
+    display: flex;
+    background-color: #25272e;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    margin-top: 100px;
+    padding-bottom: 0px;
+}
+
+.Introfooter p{
+    color: white;
+}
+
+.Introfooter h3{
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+ }
+ .Introfooter h1{
+    color: white;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    margin-top: 10px;
+    font-size: 36px;
+    margin-bottom: 20px;
+ }
+.ShahzebFooter{
+    flex: 1;
+    margin: 20px 50px 20px 50px;
+    text-align: center;
+}
+
+.MohsinFooter{
+    flex: 1;
+    margin: 20px 50px 20px 50px;
+    text-align: center;
+}
+
+
+
 @media only screen and (max-width: 538px) {
     .Div1 {
         margin-top: 100px !important;
@@ -314,4 +426,16 @@ body {
     .Serv h1{
         font-size: 36px !important;
     }
+    .ContactusForm{
+        margin: 100px auto 0px auto;
+    }
+    .AboutUsPage{
+        margin: 100px auto 0 auto;
+    }
+    /* .centered h1{
+        font-size: 16px;       
+    }
+    .centered p{
+        font-size: 12px;
+    } */
 }
